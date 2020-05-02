@@ -1,0 +1,17 @@
+@charset "utf-8";
+.wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.clear-fix::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clear-fix {
+    *zoom: 1;
+}

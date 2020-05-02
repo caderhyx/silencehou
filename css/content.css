@@ -1,0 +1,396 @@
+@charset "utf-8";
+header {
+    height: 30px;
+    background-color: #000;
+}
+
+header .head {
+    height: 30px;
+}
+
+header .wrap .top-left {
+    float: left;
+}
+
+header .wrap ul li {
+    font-size: 12px;
+    line-height: 30px;
+    margin-right: 30px;
+}
+
+header .wrap ul li {
+    float: left;
+}
+
+header .wrap a {
+    float: left;
+    height: 30px;
+}
+
+header .wrap a:hover {
+    color: #fff;
+}
+
+header .wrap .top-right {
+    float: right;
+}
+
+header .wrap .top-right .day {
+    float: left;
+}
+
+header .wrap .top-right .day li {
+    float: left;
+    position: relative;
+    margin: 0;
+}
+
+header .wrap .top-right .day li a {
+    float: left;
+    padding: 0 24px 0 16px;
+}
+
+header .wrap .top-right .day a:hover {
+    color: #f00;
+    background-color: #fff;
+}
+
+header .wrap .top-right .day a:hover i {
+    border-top-color: #f00;
+    transform: rotate(180deg);
+}
+
+header .wrap .top-right .ourself {
+    float: left;
+}
+
+header .wrap .top-right .ourself li {
+    margin: 0 12px;
+}
+
+header i {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 4px solid #999;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    right: 12px;
+    top: 50%;
+    transition: transform .3s ease-in;
+    transform-origin: center 2px;
+}
+
+nav {
+    height: 100px;
+}
+
+nav .brand-1 {
+    height: 100px;
+    position: relative;
+}
+
+nav .brand {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+nav .nav-1 {
+    float: right;
+}
+
+nav .nav-1 input {
+    width: 410px;
+    height: 24px;
+    padding: 6px 6px 6px 20px;
+    border: 2px solid #f00;
+    border-radius: 24px 0 0 24px;
+    margin-top: 25px;
+}
+
+nav .nav-4 {
+    position: relative;
+    float: left;
+}
+
+nav .nav-1 .nav-2 {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #f00;
+    bottom: 0;
+    right: -17px
+}
+
+nav .nav-1 .nav-3 {
+    float: right;
+    width: 110px;
+    height: 40px;
+    border: 2px solid #f00;
+    border-radius: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 25px
+}
+
+.both {
+    height: 40px;
+}
+
+.both .all {
+    float: left;
+    width: 164px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #f00, #ff433e);
+}
+
+.both .option {
+    float: left;
+    margin-left: 25px;
+}
+
+.both .option li {
+    float: left;
+    padding: 0 20px;
+}
+
+.both .option li a {
+    float: left;
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.both .option .caption {
+    color: #f00;
+}
+
+.both .option li a:hover {
+    color: #f00;
+}
+
+.all .boss {
+    position: absolute;
+    z-index: 2;
+    height: 41.813;
+}
+
+.all .boss li {
+    width: 149px;
+    padding: 0 13px 0 0;
+    background: linear-gradient(90deg, #f00, #ff433e);
+    border: 1px solid #ff6a73;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.all .boss li a {
+    display: inline-block;
+    height: 41.813;
+    width: 164px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.all .boss li a:hover {
+    color: #f00;
+    background-color: #fff;
+    border: -1px solid #ff433e;
+}
+
+.scroll {
+    height: 505px;
+    overflow: hidden;
+    min-width: 1000px;
+}
+
+.scroll img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.bottom {
+    width: 100%;
+    position: absolute;
+    height: 45px;
+    background-color: #a7b1a1;
+    top: 632px;
+}
+
+.bottom a {
+    color: #fff;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.bottom .bottom-left a {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bottom .bottom-right {
+    float: right;
+}
+
+.hot {
+    height: 429px;
+}
+
+.hot .hot-top {
+    height: 48px;
+    color: #333;
+    margin-top: 50px;
+}
+
+.hot .hot-top span {
+    font-size: 15px;
+    color: #999;
+}
+
+.hot .hot-bottom {
+    margin-right: -2px;
+}
+
+.hot .hot-bottom .box1 {
+    float: left;
+    height: 353px;
+    width: 219px;
+}
+
+.hot .hot-bottom .box1 .box-1 {
+    height: 220px;
+}
+
+.hot .hot-bottom .box1 .box-1 img {
+    width: 222px;
+    height: 220px;
+    margin-bottom: 0;
+}
+
+.hot .hot-bottom .box1 .box-2 {
+    width: 222px;
+    height: 133px;
+    margin-top: 0;
+    background-color: #626262;
+}
+
+.hot .hot-bottom .box1 .box-2 a {
+    color: #fff;
+}
+
+.hot .hot-bottom .box1 .box-2 p {
+    text-align: center;
+}
+
+.hot .hot-bottom .box1 .box-2 .p1 a {
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 41px;
+}
+
+.hot .hot-bottom .box1 .box-2 .p2 a {
+    font-size: 14px;
+}
+
+.hot .hot-bottom .box2 {
+    float: right;
+    width: 219px;
+    height: 176px;
+    border: 1px solid #ededed;
+    margin-right: -1px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.hot .hot-bottom .box2 .box2-1 {
+    width: 221px;
+    height: 133px;
+    text-align: center;
+}
+
+.hot .hot-bottom .box2 .box2-1 img {
+    transition: transform .3s ease;
+    transform-origin: center top;
+}
+
+.hot .hot-bottom .box2 .bo2-2 p {
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+    height: 45px;
+    width: 221px;
+    font-weight: 700;
+}
+
+.hot .hot-bottom .box2 .bo2-2 {
+    transition: opacity .3s ease;
+}
+
+.hot .hot-bottom .box2 .hover {
+    display: none;
+}
+
+.hot .hot-bottom .box2 .hover-1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    width: 50px;
+    border: 1px solid #999;
+    border-radius: 15px;
+}
+
+.hot .hot-bottom .box2 .hover-2 {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto 0;
+}
+
+.hot .hot-bottom .box2 .hover-2 a {
+    display: block;
+    font-size: 20px;
+    color: #f00;
+    width: 100px;
+    border: 2px solid #f00;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.hot .hot-bottom .box2 .hover-2 span {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.hot .hot-bottom .box2:hover img {
+    transform: scale(.5)
+}
+
+.hot .hot-bottom .box2:hover .bo2-2 {
+    opacity: 0;
+}
+
+.hot .hot-bottom .box2:hover .hover {
+    display: block;
+}
